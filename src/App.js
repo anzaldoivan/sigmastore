@@ -1,4 +1,6 @@
 import "./App.css";
+import React, { Component, useState, useEffect } from "react";
+import { render } from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/Home";
