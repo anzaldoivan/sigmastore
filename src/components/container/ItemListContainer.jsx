@@ -8,6 +8,7 @@ const ItemListContainer = () => {
   useEffect(() => {
     const getItems = new Promise( (resolve, reject) => {
       setTimeout( () => {
+        resolve(itemData)
         reject('error en la promesa')
       }, 5000)
     })
